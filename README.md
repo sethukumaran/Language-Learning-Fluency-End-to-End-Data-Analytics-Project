@@ -284,8 +284,20 @@ This is a synthetic observational dataset. Therefore:
 - simple correlations do not control for confounding variables
 A stronger next step would be a multivariate model such as logistic regression or gradient boosting, followed by calibration, feature importance and out-of-sample validation.
 
+## 12. Key findings
+- 45,000 learners, 18 columns, with no missing values or duplicate learner IDs.
+- Overall B2+ fluency rate: 35.76%.
+- Overall dropout rate: 37.07%.
+- Study volume has the strongest practical relationship with fluency: learners with 1,501+ study hours reached ~89.9% fluency, versus only 2.5% at ≤250 hours.
+- Comprehensible input shows a strong relationship with attainment: the highest input quartile has about 72.1% fluency versus 4.3% in the lowest.
+- Active-use share is also strongly differentiated: fluency rises from 15.5% at 0–20% active use to 60.5% at 81–100%.
+- FSI language difficulty creates a major gap: Category 1 has 54.1% fluency, while Category 4 has 9.5%.
+- Immersion is associated with higher fluency and lower dropout.
+- Motivation and consistency appear more useful as retention/dropout indicators than as direct fluency predictors.
+- SRS users show only a relatively small difference in B2+ attainment in this dataset.
 
-## 12. Conclusion
+
+## 13. Conclusion
 
 The analysis indicates that **language-learning outcomes are most strongly differentiated by cumulative study volume, comprehensible input, active use and target-language difficulty**. Learners with substantially greater study exposure show much higher B2+ attainment and much lower dropout.
 From a business perspective, the largest opportunity is not simply to increase raw engagement. It is to convert early learners into **consistent, high-volume, active learners** while adapting expectations and support to the difficulty of the target language.
