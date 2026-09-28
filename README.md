@@ -23,7 +23,7 @@ The analysis combines:
 | Duplicate learner IDs | 0 |
 | CEFR levels | A0–C2 |
 
-**Important:** This dataset is synthetic. Findings should be treated as analytical patterns for portfolio/demo purposes, not causal evidence about real-world language learning.
+This dataset is synthetic. Findings should be treated as analytical patterns for portfolio/demo purposes, not causal evidence about real-world language learning.
 
 
 ## 2. Business Problem
@@ -276,23 +276,19 @@ The file `language_learning_analysis.py` performs:
 ## 11. Analytical Limitations
 
 This is a synthetic observational dataset. Therefore:
-
 - correlation does not prove causation
 - learner self-selection may affect observed relationships
 - no longitudinal intervention design is available
 - external factors such as instructor quality, socioeconomic context and learning environment are not modeled
 - `age_started` should not be interpreted as a direct determinant of attainable fluency based solely on this dataset
 - simple correlations do not control for confounding variables
-
 A stronger next step would be a multivariate model such as logistic regression or gradient boosting, followed by calibration, feature importance and out-of-sample validation.
 
 
 ## 12. Conclusion
 
 The analysis indicates that **language-learning outcomes are most strongly differentiated by cumulative study volume, comprehensible input, active use and target-language difficulty**. Learners with substantially greater study exposure show much higher B2+ attainment and much lower dropout.
-
 From a business perspective, the largest opportunity is not simply to increase raw engagement. It is to convert early learners into **consistent, high-volume, active learners** while adapting expectations and support to the difficulty of the target language.
-
 The most actionable product strategy is therefore to combine **progressive study-hour milestones + active-use experiences + high-quality comprehensible input + early dropout-risk intervention + difficulty-aware learning plans**.
 
 Because the dataset is synthetic and observational, these findings should be treated as hypotheses for product experimentation rather than causal conclusions.
